@@ -29,7 +29,7 @@
 
 body {
   background-color: var(--purple-500);
-  color: var(--purple-500);
+  color: var(--purple-100);
   -webkit-font-smoothing: antialiased;
 }
 

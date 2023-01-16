@@ -120,7 +120,7 @@
 
 @media (max-width: 768px) {
   .taskForm {
-    width: 48rem;
+    width: 46rem;
     position: static;
     gap: 0;
     padding: 1rem;
@@ -139,7 +139,7 @@
 
   .numberOfTaskDisplay {
     margin-top: 1.5rem;
-    width: 48rem;
+    width: 46rem;
     position: static;
     padding: 1.5rem;
   }

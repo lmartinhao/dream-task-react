@@ -1,11 +1,10 @@
-import Clipboard from '../assets/Clipboard.svg'
-
+import { ClipboardText } from 'phosphor-react';
 import styles from './NoTasks.module.css';
 
 export function NoTasks() {
   return (
     <div className={styles.taskBox}>
-      <img src={Clipboard} alt='Clipboard' />
+      <ClipboardText size={100}/>
       <div className={styles.noTaskText}>
         <strong>Você ainda não tem tarefas cadastradas</strong>
         <span>Crie tarefas e organize seus itens a fazer</span>
