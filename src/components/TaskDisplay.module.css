@@ -41,7 +41,7 @@
 .purpleText {
   color: var(--purple-100);
   font-weight: 700;
-  text-shadow: .5px .5px 1px var(--purple-100)
+  text-shadow: .5px .5px 1px var(--purple-100);
 }
 
 .numberOfTasksText {
@@ -120,7 +120,7 @@
 
 @media (max-width: 768px) {
   .taskForm {
-    min-width: 28.625rem;
+    width: 28.625rem;
     position: static;
     gap: 0;
     padding: 1rem;
@@ -138,13 +138,19 @@
   }
 
   .numberOfTaskDisplay {
+    box-sizing: border-box;
     margin-top: 1.5rem;
-    min-width: 28.625rem;
+    width: 28.625rem;
     position: static;
     padding: 1.5rem;
   }
 
+  .numberOfTaskDisplay > header {
+    gap: 10rem;
+  }
+
   .taskDisplay {
-    min-width: 28.625rem;
+    box-sizing: border-box;
+    width: 27rem;
   }
 }

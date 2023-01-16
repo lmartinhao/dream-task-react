@@ -31,6 +31,7 @@
 }
 
 .task > span {
+  box-sizing: border-box;
   padding: 1rem 1rem 1rem 0;
   font-weight: 400;
   font-size: 0.875rem;
@@ -56,4 +57,11 @@
 
 .openTask {
   color: var(--purple-500);
+}
+
+@media (max-width: 768px) {
+  .task {
+    display: grid;
+    grid-template-columns: 3.25rem 20rem 3.25rem;
+  }
 }
