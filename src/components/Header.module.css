@@ -27,3 +27,26 @@
     25px 25px 0px var(--purple-500),
     30px 30px 0px var(--purple-100)
 }
+
+@media (max-width: 768px) {
+  .header {
+    width: 48rem;
+  }
+  .headerText {
+    width: auto;
+    height: auto;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 7.5rem;
+    padding-top: 20%;
+
+    text-shadow: 5px 5px 0px var(--yellow-700),
+    10px 10px 0px var(--yellow-500),
+    15px 15px 0px var(--pink-100),
+    20px 20px 0px var(--pink-500),
+    25px 25px 0px var(--purple-500),
+    30px 30px 0px var(--purple-100)
+  }
+}

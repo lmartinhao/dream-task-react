@@ -117,3 +117,30 @@
   gap: 0.5rem;
   cursor: pointer;
 }
+
+@media (max-width: 768px) {
+  .taskForm {
+    width: 48rem;
+    position: static;
+    gap: 0;
+    padding: 1rem;
+    margin-top: -1.5rem;
+  }
+
+  .taskInputArea {
+    width: 100%;
+    padding: 2rem;
+  }
+
+  .addBtn {
+    width: 6rem;
+    height: 4rem;
+  }
+
+  .numberOfTaskDisplay {
+    margin-top: 1.5rem;
+    width: 48rem;
+    position: static;
+    padding: 1.5rem;
+  }
+}

@@ -43,10 +43,10 @@
 }
 .bubble:nth-child(6){
   position: relative;
-  zoom: .9;
-  right: -500px;
+  zoom: .85;
+  right: -600px;
   top: -200px;
-  animation-delay: -5s;
+  animation-delay: -6s;
 }
 .bubble:nth-child(7){
   position: relative;
@@ -126,4 +126,14 @@
   border-bottom: 10px solid #fff;
   filter: blur(16px);
   transform: rotate(330deg);
+}
+
+@media (max-width: 768px) {
+  html {
+    font-size: 90%;
+  }
+
+ .bubbleWrapper {
+  display: none;
+ }
 }
