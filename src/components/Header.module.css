@@ -30,7 +30,7 @@
 
 @media (max-width: 768px) {
   .header {
-    width: 46rem;
+    min-width: 28.625rem;
   }
   .headerText {
     width: auto;
