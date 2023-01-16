@@ -35,10 +35,10 @@
 
 @media (max-width: 768px) {
   .taskBox {
-    width: 28.625rem;
+    width: 27rem;
   }
 
   .noTaskText {
-    width: 26rem;
+    width: 27rem;
   }
 }

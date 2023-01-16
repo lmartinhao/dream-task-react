@@ -129,10 +129,6 @@
 }
 
 @media (max-width: 768px) {
-  body {
-    width: 28.625rem;
-  }
-
   html {
     font-size: 90%;
   }
