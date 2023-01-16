@@ -20,7 +20,7 @@
   justify-content: space-between;
   align-items: flex-end;
   padding: 0rem;
-  gap: 10rem;
+  gap: 27rem;
   font-size: 0.875rem;
   line-height: 1.063rem;
 }
@@ -146,7 +146,7 @@
   }
 
   .numberOfTaskDisplay > header {
-
+    gap: 8rem;
   }
 
   .taskDisplay {
