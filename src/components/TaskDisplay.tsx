@@ -48,14 +48,16 @@ export function TaskDisplay() {
     setNewTaskText('');
   };
 
-  function handleNewTaskInvalid(event: InvalidEvent<HTMLInputElement>) {
-    event.target.setCustomValidity('Hey, não se esqueça de escrever alguma coisa 😯');
-  }
 
   function handleNewTaskChange(event: ChangeEvent<HTMLInputElement> & {
     target: HTMLFormElement
   }) {
+    event.target.setCustomValidity('');
     setNewTaskText(event.target.value);
+  }
+
+  function handleNewTaskInvalid(event: InvalidEvent<HTMLInputElement>) {
+    event.target.setCustomValidity('Hey, não se esqueça de escrever alguma coisa 😯');
   }
 
   function setTaskAsCompleted(taskToComplete: string) {
