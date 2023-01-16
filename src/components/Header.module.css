@@ -42,11 +42,11 @@
     font-size: 4.5rem;
     padding-top: 30%;
 
-    text-shadow: 2.5px 2.5px 0px var(--yellow-700),
-    5px 5px 0px var(--yellow-500),
-    7.5px 7.5px 0px var(--pink-100),
-    10px 10px 0px var(--pink-500),
-    12.5px 12.5px 0px var(--purple-500),
-    15px 15px 0px var(--purple-100)
+    text-shadow: 2px 2px 0px var(--yellow-700),
+    4px 4px 0px var(--yellow-500),
+    6px 6px 0px var(--pink-100),
+    8px 8px 0px var(--pink-500),
+    10px 10px 0px var(--purple-500),
+    12px 12px 0px var(--purple-100)
   }
 }
