@@ -1,0 +1,29 @@
+.header {
+  height: 15rem;
+  left: 0rem;
+  right: 0rem;
+  top: 0rem;
+  background: var(--pink-100);
+}
+
+.headerText {
+  position: absolute;
+  width: 46rem;
+  height: 15rem;
+  font-family: 'Calligraffitti', cursive;
+  font-weight: 700;
+  font-size: 8.5rem;
+  text-shadow: -15px 5px 20px #ced0d3;
+  top: 18%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  letter-spacing: 0.02em;
+  text-align: center;
+  color: var(--yellow-300);
+  text-shadow: 5px 5px 0px var(--yellow-700),
+    10px 10px 0px var(--yellow-500),
+    15px 15px 0px var(--pink-100),
+    20px 20px 0px var(--pink-500),
+    25px 25px 0px var(--purple-500),
+    30px 30px 0px var(--purple-100)
+}
